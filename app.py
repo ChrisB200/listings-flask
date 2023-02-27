@@ -1,6 +1,5 @@
 from flask import Flask
 import json, pymysql
-
 import pymysql, os, json
 
 #db instance identifier: database-1
@@ -29,7 +28,6 @@ def load_table():
 
     return data
     
-
 app = Flask(__name__)
 
 # Members API Route
